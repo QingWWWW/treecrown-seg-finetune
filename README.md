@@ -1,9 +1,9 @@
-# treecrown-seg-finetune
-# Stage Fine-Tuning Implementation
+# Stage Fine-Tuning for Tree Crown Segmentation 
 
-This repository contains the implementation code for Algorithm 1 in the paper [A semi-supervised framework for UAV-based individual tree crown segmentation in heterogeneous planted forests].
+**Implementation of Algorithm 1 from**:  
+*"A semi-supervised framework for UAV-based individual tree crown segmentation in heterogeneous planted forests"*  
+*(Qing Wang, Yihui Zhao, Yingpu Che, Han Shen, Yongbin Qiu, Yixiang Wang. [International Journal of Applied Earth Observation and Geoinformation] [2025])*  
 
-## File Description
-- `staged_finetuning.py`: PyTorch implementation of the two-stage fine-tuning strategy:
-  - Stage 1: Rapid adaptation preservation strategy (Frozen backbone with RPN/RoI head optimization)
-  - Stage 2: Enhanced feature refinement strategy (Unfrozen deeper layers (layer3/layer4) for feature refinement)
+✨**Key Features**:
+- 🚀 **Stage 1**: Rapid adaptation preservation strategy (Frozen backbone with RPN/RoI head optimization)
+- 🔍 **Stage 2**: Enhanced feature refinement strategy (Unfrozen deeper layers (layer3/layer4) for feature refinement)
